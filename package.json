@@ -1,12 +1,17 @@
 {
-  "name": "gratech",
+  "name": "weddysoft",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://www.weddysoft.com",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+    
+    
   },
   "dependencies": {
     "aos": "^2.3.4",
@@ -32,6 +37,7 @@
     "@types/react-modal-video": "^1.2.3",
     "eslint": "^8",
     "eslint-config-next": "14.2.3",
+    "gh-pages": "^6.3.0",
     "sass": "^1.77.0",
     "typescript": "^5"
   }

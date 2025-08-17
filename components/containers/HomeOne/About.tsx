@@ -62,7 +62,7 @@ const About = () => {
                   data-aos-duration="1500"
                 >
                   <Image className="me-1" src={Three} alt="icon" priority />
-                  ABOUT Gratech
+                  ABOUT WeddySoft
                 </h5>
                 <h2
                   className=""
