@@ -3,16 +3,21 @@ import "@/public/styles/style.scss";
 import InitAnimations from "@/components/layout/InitAnimations";
 
 export const metadata: Metadata = {
-  title: "WeddySoft | Software Development & IT Solutions",
-  description: "Software Development & IT Solutions",
+  title: "Gratech | Software Development & IT Solutions React NextJs Template",
+  description: "Software Development & IT Solutions React NextJs Template",
   keywords: [
     "Software",
-    "IT"
+    "IT",
+    "Agency",
+    "Javascript",
+    "Typescript",
+    "React",
+    "nextjs",
   ],
   authors: [
     {
-      name: "WeddySoft",
-      url: "",
+      name: "Gramentheme",
+      url: "https://themeforest.net/user/gramentheme",
     },
   ],
 };
