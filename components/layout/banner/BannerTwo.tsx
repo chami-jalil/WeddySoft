@@ -106,7 +106,7 @@ const BannerTwo = () => {
                     data-delay=".3s"
                     className="text-white mb-20"
                   >
-                    TECHNOLOGY RELETED CONSULTANCY
+                    Technology Related Consultancy
                   </h4>
                   <h1
                     data-animation="fadeInUp"
@@ -120,9 +120,7 @@ const BannerTwo = () => {
                     data-delay=".7s"
                     className="mt-20"
                   >
-                    Consectetur adipiscing elit Aenean scelerisque at augue
-                    vitae consequat <br /> quisque eget congue velit in cursus
-                    leo Sed sodales
+                    We help you achieve your business goals with expert advice and innovative solutions. <br /> Our team is dedicated to turning your ideas into reality and supporting your growth every step of the way.
                   </p>
                   <Link
                     data-animation="fadeInUp"
@@ -205,7 +203,7 @@ const BannerTwo = () => {
                     data-delay=".3s"
                     className="text-white mb-20"
                   >
-                    TECHNOLOGY RELETED CONSULTANCY
+                    TECHNOLOGY RELATED CONSULTANCY
                   </h4>
                   <h1
                     data-animation="fadeInUp"
@@ -219,9 +217,7 @@ const BannerTwo = () => {
                     data-delay=".7s"
                     className="mt-20"
                   >
-                    Consectetur adipiscing elit Aenean scelerisque at augue
-                    vitae consequat <br /> quisque eget congue velit in cursus
-                    leo Sed sodales
+                    We provide tailored IT solutions to help your business grow and succeed. <br /> Our experts deliver reliable support and creative strategies for every challenge.
                   </p>
                   <Link
                     data-animation="fadeInUp"
@@ -304,7 +300,7 @@ const BannerTwo = () => {
                     data-delay=".3s"
                     className="text-white mb-20"
                   >
-                    TECHNOLOGY RELETED CONSULTANCY
+                    TECHNOLOGY RELATED CONSULTANCY
                   </h4>
                   <h1
                     data-animation="fadeInUp"
@@ -318,9 +314,7 @@ const BannerTwo = () => {
                     data-delay=".7s"
                     className="mt-20"
                   >
-                    Consectetur adipiscing elit Aenean scelerisque at augue
-                    vitae consequat <br /> quisque eget congue velit in cursus
-                    leo Sed sodales
+                    Our team offers innovative technology consulting to turn your concepts into reality. <br /> We focus on practical solutions and dedicated support for your business success.
                   </p>
                   <Link
                     data-animation="fadeInUp"

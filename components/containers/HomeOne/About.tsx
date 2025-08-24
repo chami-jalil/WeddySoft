@@ -78,10 +78,7 @@ const About = () => {
                   data-aos-delay="400"
                   data-aos-duration="1500"
                 >
-                  Aonsectetur adipiscing elit aenean scelerisque augue vitae
-                  consequat aisque eget congue velit in cursus sodales the
-                  turpis euismod quis sapien euismod quis sapien the condimentum
-                  nec lorem nulla augue.
+                  We are dedicated to helping businesses grow by providing smart and effective solutions. Our team combines expertise and innovation to deliver results that make a real difference. We focus on understanding your needs and offering services that help you succeed.
                 </p>
               </div>
               <div
@@ -97,7 +94,7 @@ const About = () => {
                     </div>
                     <div className="content">
                       <h4 className="mb-1">Best Services</h4>
-                      <p>Scelerisque augue the consequat sodales</p>
+                        <p>We deliver outstanding results and reliable support for your business needs.</p>
                     </div>
                   </div>
                 </div>
@@ -108,7 +105,7 @@ const About = () => {
                     </div>
                     <div className="content">
                       <h4 className="mb-1">24/7 Call Support</h4>
-                      <p>Scelerisque augue the consequat sodales</p>
+                      <p>Our team is available around the clock to assist you whenever you need help.</p>
                     </div>
                   </div>
                 </div>

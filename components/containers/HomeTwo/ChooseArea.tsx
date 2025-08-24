@@ -109,8 +109,8 @@ const ChooseArea = () => {
                       <Image src={Five} alt="icon" priority />
                     </div>
                     <div className="content">
-                      <h4 className="mb-1">Best Services</h4>
-                      <p>Scelerisque augue the consequat sodales</p>
+                     <h4 className="mb-1">Best Services</h4>
+                      <p>We deliver outstanding IT solutions that help your business grow and succeed.</p>
                     </div>
                   </div>
                 </div>
@@ -120,8 +120,8 @@ const ChooseArea = () => {
                       <Image src={Six} alt="icon" priority />
                     </div>
                     <div className="content">
-                      <h4 className="mb-1">24/7 Call Support</h4>
-                      <p>Scelerisque augue the consequat sodales</p>
+                       <h4 className="mb-1">24/7 Call Support</h4>
+                      <p>Our support team is available around the clock to assist you whenever you need help.</p>
                     </div>
                   </div>
                 </div>

@@ -11,8 +11,7 @@ const ContactContent = () => {
             <div className="contact__left-item primary-bg">
               <h3 className="text-white mb-30">Contact Information</h3>
               <p className="text-white">
-                Nullam varius, erat quis iaculis dictum, eros urna varius eros,
-                ut blandit felis odio in turpis. Quisque.
+                Feel free to reach out to us for any questions or support. Our team is here to help you with your needs and provide the best possible service.
               </p>
               <ul className="mt-40 mb-40">
                 <li>
@@ -148,9 +147,7 @@ const ContactContent = () => {
                   data-aos-delay="400"
                   data-aos-duration="1500"
                 >
-                  Nullam varius, erat quis iaculis dictum, eros urna varius
-                  eros, ut blandit felis odio in turpis. Quisque rhoncus, eros
-                  in auctor ultrices,
+                  Contact us today to discuss your project or ask any questions. We are ready to assist you and help you achieve your goals.
                 </p>
               </div>
               <div className="contact__form">

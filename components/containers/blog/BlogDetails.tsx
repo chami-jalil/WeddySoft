@@ -1,13 +1,13 @@
 import Link from "next/link";
 import Image from "next/image";
-import One from "@/public/images/blog/blog-single-image1.jpg";
-import Two from "@/public/images/blog/blog-single-sm1.jpg";
-import Three from "@/public/images/blog/blog-single-sm2.jpg";
-import Four from "@/public/images/blog/comment-image1.png";
-import Five from "@/public/images/blog/comment-image2.png";
-import Six from "@/public/images/blog/post-sm1.png";
-import Seven from "@/public/images/blog/post-sm2.png";
-import Eight from "@/public/images/blog/post-sm3.png";
+// import One from "../../public/images/blog/blog-single-image1.jpg";
+// import Two from "../../public/images/blog/blog-single-sm1.jpg";
+// import Three from "../../public/images/blog/blog-single-sm2.jpg";
+// import Four from "../../public/images/blog/comment-image1.png";
+// import Five from "../../public/images/blog/comment-image2.png";
+// import Six from "../../public/images/blog/post-sm1.png";
+// import Seven from "../../public/images/blog/post-sm2.png";
+// import Eight from "../../public/images/blog/post-sm3.png";
 
 const BlogDetails = () => {
   return (
@@ -17,7 +17,7 @@ const BlogDetails = () => {
           <div className="col-lg-8 order-2 order-lg-1">
             <div className="blog__item blog-single__left-item shadow-none">
               <div className="image">
-                <Image src={One} alt="Image" priority />
+                <Image src="/images/blog/blog-single-image1.jpg" width="1920" height="450" alt="Image" priority />
               </div>
               <div className="blog__content p-0">
                 <ul className="pb-3 pt-30 bor-bottom d-flex gap-4 flex-wrap align-items-center">
@@ -93,55 +93,36 @@ const BlogDetails = () => {
                     </Link>
                   </li>
                 </ul>
-                <h3 className="blog-single__title mt-20">
+                                <h3 className="blog-single__title mt-20">
                   Tackling the Changes of Retail Industry
                 </h3>
                 <p className="mb-20 mt-20">
-                  Consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                  ut labore et dolore of magna aliqua. Ut enim ad minim veniam,
-                  made of owl the quis nostrud exercitation ullamco laboris nisi
-                  ut aliquip ex ea dolor commodo consequat. Duis aute irure and
-                  dolor in reprehenderit.
+                  We are committed to delivering excellent results and working hard for our clients. Our team pays attention to every detail to ensure the best possible outcome. We strive to exceed expectations and provide lasting value.
                 </p>
                 <p className="mb-20">
-                  The is ipsum dolor sit amet consectetur adipiscing elit. Fusce
-                  eleifend porta arcu In hac habitasse the is platea augue
-                  thelorem turpoi dictumst. In lacus libero faucibus at
-                  malesuada sagittis placerat eros sed istincidunt augue ac ante
-                  rutrum sed the is sodales augue consequat.
+                  This is about working together and growing as a team. We believe in building strong relationships and supporting each other. Every challenge is an opportunity to learn and improve, and we always aim to move forward with confidence and purpose.
                 </p>
                 <p className="mb-20">
-                  Nulla facilisi. Vestibulum tristique sem in eros eleifend
-                  imperdiet. Donec quis convallis neque. In id lacus pulvinar
-                  lacus, eget vulputate lectus. Ut viverra bibendum lorem, at
-                  tempus nibh mattis in. Sed a massa eget lacus consequat
-                  auctor.
+                  We make things easy for you. Our process is simple and straightforward, so you can focus on what matters most. Our team is here to help every step of the way, ensuring a smooth experience from start to finish.
                 </p>
                 <div className="row">
                   <div className="col-6">
                     <div className="image">
-                      <Image src={Two} alt="Image" priority />
+                      <Image src="/images/blog/blog-single-sm1.jpg" width="800" height="800" alt="Image" priority />
                     </div>
                   </div>
                   <div className="col-6">
                     <div className="image">
-                      <Image src={Three} alt="Image" priority />
+                      <Image src="/images/blog/blog-single-sm2.jpg" width="800" height="800" alt="Image" priority />
                     </div>
                   </div>
                 </div>
                 <p className="mt-20">
-                  The is ipsum dolor sit amet consectetur adipiscing elit. Fusce
-                  eleifend porta arcu In hac habitasse the is platea augue
-                  thelorem turpoi dictumst. In lacus libero faucibus at
-                  malesuada sagittis placerat eros sed istincidunt augue ac ante
-                  rutrum sed the is sodales augue consequat.
+                  Working together helps us grow and succeed. We value strong relationships and teamwork. Every challenge is a chance to learn and improve, and we always move forward with confidence.
                 </p>
                 <div className="hilight-text mt-40 mb-30 sub-bg">
                   <p>
-                    Pellentesque sollicitudin congue dolor non aliquam. Morbi
-                    volutpat, nisi vel ultricies urnacondimentum, sapien neque
-                    lobortis tortor, quis efficitur mi ipsum eu metus. Praesent
-                    eleifend orci sit amet est vehicula.
+                    We encourage open communication and collaboration. Our approach is to listen, understand, and respond to your needs. By working together, we can achieve great things and create meaningful results.
                   </p>
                   <svg
                     width="36"
@@ -161,11 +142,7 @@ const BlogDetails = () => {
                   </svg>
                 </div>
                 <p>
-                  Consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                  ut labore et dolore of magna aliqua. Ut enim ad minim veniam,
-                  made of owl the quis nostrud exercitation ullamco laboris nisi
-                  ut aliquip ex ea dolor commodo consequat. Duis aute irure and
-                  dolor in reprehenderit.
+                  We are committed to delivering excellent results and working hard for our clients. Our team pays attention to every detail to ensure the best possible outcome. We strive to exceed expectations and provide lasting value.
                 </p>
                 <div className="tags-share mt-40">
                   <div className="tags">
@@ -196,7 +173,7 @@ const BlogDetails = () => {
               <h3>02 Reviews, for Tiles</h3>
               <div className="blog-single__comment d-flex gap-4 mt-60 pb-60 bor-bottom">
                 <div className="image">
-                  <Image src={Four} alt="Image" priority />
+                  <Image src="/images/blog/comment-image1.png" width="800" height="800" alt="Image" priority />
                 </div>
                 <div className="content">
                   <div className="head d-flex flex-wrap gap-2 align-items-center justify-content-between">
@@ -217,9 +194,7 @@ const BlogDetails = () => {
                     </div>
                   </div>
                   <p className="mt-30 mb-4">
-                    Neque porro est qui dolorem ipsum quia quaed inventor
-                    veritatis et quasi architecto var sed efficitur turpis gilla
-                    sed sit amet finibus eros. Lorem Ipsum is simply dummy
+                    There is no one who dislikes success and growth. We believe in honesty and hard work, and we always aim to deliver the best results for our clients. Our team is dedicated to making every project a success.
                   </p>
                   <Link href="/" className="sub-bg primary-color reply">
                     Reply
@@ -228,7 +203,7 @@ const BlogDetails = () => {
               </div>
               <div className="blog-single__comment d-flex gap-4 mt-60 pb-60 bor-bottom">
                 <div className="image">
-                  <Image src={Five} alt="Image" priority />
+                  <Image src="/images/blog/comment-image2.png" width="800" height="800" alt="Image" priority />
                 </div>
                 <div className="content">
                   <div className="head d-flex flex-wrap gap-2 align-items-center justify-content-between">
@@ -249,9 +224,7 @@ const BlogDetails = () => {
                     </div>
                   </div>
                   <p className="mt-30 mb-4">
-                    Neque porro est qui dolorem ipsum quia quaed inventor
-                    veritatis et quasi architecto var sed efficitur turpis gilla
-                    sed sit amet finibus eros. Lorem Ipsum is simply dummy
+                    We value integrity and creativity. Our team works together to solve problems and create solutions that make a difference. We are committed to providing excellent service and support.
                   </p>
                   <Link href="/" className="sub-bg primary-color reply">
                     Reply
@@ -335,7 +308,7 @@ const BlogDetails = () => {
                 <h5 className="title">Resent Post</h5>
                 <ul className="single-post">
                   <li>
-                    <Image src={Six} alt="Image" priority />
+                    <Image src="/images/blog/post-sm1.png" width="800" height="800" alt="Image" priority />
                     <div className="con">
                       <span>
                         <svg
@@ -365,7 +338,7 @@ const BlogDetails = () => {
                     </div>
                   </li>
                   <li>
-                    <Image src={Seven} alt="Image" priority />
+                    <Image src="/images/blog/post-sm2.png" width="800" height="800" alt="Image" priority />
                     <div className="con">
                       <span>
                         <svg
@@ -396,7 +369,7 @@ const BlogDetails = () => {
                     </div>
                   </li>
                   <li>
-                    <Image src={Eight} alt="Image" priority />
+                    <Image src="/images/blog/post-sm3.png" width="800" height="800" alt="Image" priority />
                     <div className="con">
                       <span>
                         <svg

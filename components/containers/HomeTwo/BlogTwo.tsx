@@ -147,8 +147,7 @@ const BlogTwo = () => {
                   </Link>
                 </h3>
                 <p className="mt-10">
-                  Consequat Quisque eget congue velit in OF cursus leo sodales
-                  IS the euismod quis sapien euismod
+                  We help keep your business safe and ensure your systems are always available. Our solutions are designed to protect your data and keep your operations running smoothly.
                 </p>
                 <div className="about__info justify-content-between flex-wrap gap-3 mt-25">
                   <div className="d-flex gap-2 align-items-center">
@@ -245,7 +244,7 @@ const BlogTwo = () => {
                 </ul>
                 <h3>
                   <Link href="blog-details.htm" className="primary-hover">
-                    What’s the Holding Back the It Solution
+                    What&apos;s the Holding Back the It Solution
                   </Link>
                 </h3>
                 <div className="about__info mt-30">

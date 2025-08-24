@@ -106,9 +106,7 @@ const TestimonialThree = () => {
                         </div>
                       </div>
                       <p className="mt-30">
-                        “ Consectetur elit nteger maecenas porta is nunc nul
-                        viverra Aenean pulvinar maximus leo nunc viverra laoreet
-                        est the is porta adipiscing pretium ”
+                        “ The team was very knowledgeable and helped us solve complex security issues quickly. Their expertise made a real difference for our business. ”
                       </p>
                       <div className="star mt-20">
                         <i className="fa-sharp fa-solid fa-star"></i>
@@ -145,9 +143,7 @@ const TestimonialThree = () => {
                         </div>
                       </div>
                       <p className="mt-30">
-                        “ Consectetur elit nteger maecenas porta is nunc nul
-                        viverra Aenean pulvinar maximus leo nunc viverra laoreet
-                        est the is porta adipiscing pretium ”
+                        “ Working with this company was a great experience. They delivered a beautiful website on time and provided excellent support throughout the project. ”
                       </p>
                       <div className="star mt-20">
                         <i className="fa-sharp fa-solid fa-star"></i>
@@ -184,9 +180,7 @@ const TestimonialThree = () => {
                         </div>
                       </div>
                       <p className="mt-30">
-                        “ Consectetur elit nteger maecenas porta is nunc nul
-                        viverra Aenean pulvinar maximus leo nunc viverra laoreet
-                        est the is porta adipiscing pretium ”
+                        “ Their attention to detail and commitment to quality impressed us. The software testing process was thorough and helped us launch a reliable product. ”
                       </p>
                       <div className="star mt-20">
                         <i className="fa-sharp fa-solid fa-star"></i>
@@ -223,9 +217,7 @@ const TestimonialThree = () => {
                         </div>
                       </div>
                       <p className="mt-30">
-                        “ Consectetur elit nteger maecenas porta is nunc nul
-                        viverra Aenean pulvinar maximus leo nunc viverra laoreet
-                        est the is porta adipiscing pretium ”
+                        “ The team was very knowledgeable and helped us solve complex security issues quickly. Their expertise made a real difference for our business. ”
                       </p>
                       <div className="star mt-20">
                         <i className="fa-sharp fa-solid fa-star"></i>
@@ -262,9 +254,7 @@ const TestimonialThree = () => {
                         </div>
                       </div>
                       <p className="mt-30">
-                        “ Consectetur elit nteger maecenas porta is nunc nul
-                        viverra Aenean pulvinar maximus leo nunc viverra laoreet
-                        est the is porta adipiscing pretium ”
+                        “ Working with this company was a great experience. They delivered a beautiful website on time and provided excellent support throughout the project. ”
                       </p>
                       <div className="star mt-20">
                         <i className="fa-sharp fa-solid fa-star"></i>
@@ -301,9 +291,7 @@ const TestimonialThree = () => {
                         </div>
                       </div>
                       <p className="mt-30">
-                        “ Consectetur elit nteger maecenas porta is nunc nul
-                        viverra Aenean pulvinar maximus leo nunc viverra laoreet
-                        est the is porta adipiscing pretium ”
+                        “ Their attention to detail and commitment to quality impressed us. The software testing process was thorough and helped us launch a reliable product. ”
                       </p>
                       <div className="star mt-20">
                         <i className="fa-sharp fa-solid fa-star"></i>

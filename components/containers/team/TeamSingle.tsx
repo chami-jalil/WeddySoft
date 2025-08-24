@@ -161,13 +161,7 @@ const TeamSingle = () => {
             , 2010
           </h4>
           <p>
-            Proin ultricies ultricies est vitae cursus. Nulla sit amet suscipit
-            tortor. Maecenas dui erat, ornare eget tristique vitae, rutrum
-            pretium justo. Phasellus vitae consequat nisi, quis luctus nisl.
-            Praesent faucibus sem id massa semper ornare. Nam eu magna at mi
-            pellentesque mattis. Morbi at condimentum velit. Phasellus aliquet,
-            leo auctor volutpat ultrices, metus dolor dictum enim, sed convallis
-            lacus urna nec erat.
+            I completed my bachelor&apos;s degree in 2010, where I gained a strong foundation in design principles and technology. My studies helped me develop critical thinking and problem-solving skills, which I apply to my work every day. I learned how to collaborate with others and manage projects efficiently.
           </p>
           <h4>
             <span className="primary-color text-capitalize mb-3 mt-5">
@@ -176,13 +170,7 @@ const TeamSingle = () => {
             , 2015
           </h4>
           <p>
-            Proin ultricies ultricies est vitae cursus. Nulla sit amet suscipit
-            tortor. Maecenas dui erat, ornare eget tristique vitae, rutrum
-            pretium justo. Phasellus vitae consequat nisi, quis luctus nisl.
-            Praesent faucibus sem id massa semper ornare. Nam eu magna at mi
-            pellentesque mattis. Morbi at condimentum velit. Phasellus aliquet,
-            leo auctor volutpat ultrices, metus dolor dictum enim, sed convallis
-            lacus urna nec erat.
+            In 2015, I earned my master&apos;s degree in design. This advanced program allowed me to deepen my expertise in creative solutions and user experience. I focused on innovative design strategies and worked on real-world projects that prepared me for professional challenges. My education has been essential to my growth as a designer.
           </p>
         </div>
       </div>

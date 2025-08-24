@@ -33,18 +33,10 @@ const ServiceSingle = () => {
                 </div>
                 <h3 className="title mb-30">IT Management</h3>
                 <p className="mb-20">
-                  The is ipsum dolor sit amet consectetur adipiscing elit. Fusce
-                  is eleifend porta arcu In hac habitasse the platea thelorem
-                  turpoi dictumst. In lacus libero faucibus malesuada sagittis
-                  placerat eros sed istincidunt augue ac ante rutrum sed the is
-                  sodales augue consequat.
+                  We provide expert IT management services to help your business grow and succeed. Our team ensures your systems are secure, efficient, and always up to date. We focus on delivering solutions that make your operations smoother and more reliable.
                 </p>
                 <p>
-                  lacus sed pretium pretium justo. Integer is vitae venenatis
-                  lorem. Maecenas lacinia turpis the in nunc quam hendrerit
-                  scelerisque at finibus enim sagittis. Aliquam erat is volutpat
-                  nam nec purus at is orci volutpat semper vel id turpis In a
-                  malesuada arcu ac hendrerit.
+                  We offer flexible support and maintenance for all your IT needs. Our experienced professionals are ready to help you solve problems and improve your technology. We work closely with you to understand your requirements and deliver the best results.
                 </p>
                 <div className="row g-5 mt-40 mb-40 align-items-center">
                   <div className="col-lg-5">
@@ -78,19 +70,11 @@ const ServiceSingle = () => {
                   </div>
                 </div>
                 <p className="mb-40">
-                  Consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                  ut labore et dolore of magna aliqua. Ut enim ad minim veniam,
-                  made of owl the quis nostrud exercitation ullamco laboris nisi
-                  ut aliquip ex ea dolor commodo consequat. Duis aute irure and
-                  dolor in reprehenderit.
+                  Our services are designed to meet your business needs, whether you require ongoing support or help with a specific project. We are committed to providing high-quality solutions and excellent customer service. Let us help you achieve your goals with reliable IT management.
                 </p>
                 <h3 className="title mb-30">Most Comment Question?</h3>
                 <p className="mb-30">
-                  The is ipsum dolor sit amet consectetur adipiscing elit. Fusce
-                  is eleifend porta arcu In hac habitasse the platea thelorem
-                  turpoi dictumst. In lacus libero faucibus malesuada sagittis
-                  placerat eros sed istincidunt augue ac ante rutrum sed the is
-                  sodales augue consequat.
+                  We understand that you may have questions about our services. Our team is here to provide clear answers and guide you through every step. We believe in transparency and making sure you have all the information you need to make the best decisions for your business.
                 </p>
                 <div className="accordion" id="accordionExample">
                   <div
@@ -273,7 +257,7 @@ const ServiceSingle = () => {
                       <Link href="/">IT Consultancy</Link>{" "}
                       <i className="fa-regular fa-arrow-right-long primary-color"></i>
                     </li>
-                    <li className="active">
+                    <li /*className="active"...*/>
                       <Link href="/">App Development</Link>{" "}
                       <i className="fa-regular fa-arrow-right-long primary-color"></i>
                     </li>

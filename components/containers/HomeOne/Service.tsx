@@ -70,8 +70,7 @@ const Service = () => {
                 <Link href="service-details">IT Management</Link>
               </h4>
               <p>
-                Pellentesque nec the condimentum nec lorem nulla augue est
-                ultricies ac iaculis ut euismod quis sapien.
+                We provide reliable IT management solutions to keep your business running smoothly and efficiently. Our team ensures your systems are secure and up to date.
               </p>
             </div>
           </div>
@@ -98,8 +97,7 @@ const Service = () => {
                 <Link href="service-details">Cyber Security</Link>
               </h4>
               <p>
-                Pellentesque nec the condimentum nec lorem nulla augue est
-                ultricies ac iaculis ut euismod quis sapien.
+                Protect your business with our advanced cyber security services. We safeguard your data and systems from threats, giving you peace of mind.
               </p>
             </div>
           </div>
@@ -126,8 +124,7 @@ const Service = () => {
                 <Link href="service-details">Web Development</Link>
               </h4>
               <p>
-                Pellentesque nec the condimentum nec lorem nulla augue est
-                ultricies ac iaculis ut euismod quis sapien.
+                Build a strong online presence with our professional web development services. We create modern, responsive websites tailored to your needs.
               </p>
             </div>
           </div>

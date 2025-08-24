@@ -172,11 +172,9 @@ const Banner = () => {
                     data-delay=".7s"
                     className="mt-20"
                   >
-                    Consectetur adipiscing elit aenean scelerisque at augue
-                    vitae consequat
+                    We provide expert IT services to help your business succeed.
                     <br />
-                    quisque eget congue velit in cursus leo sed sodales est eget
-                    turpis.
+                    Our team delivers reliable solutions and outstanding support for all your technology needs.
                   </p>
                   <Link
                     data-animation="slideInRight"
@@ -321,11 +319,9 @@ const Banner = () => {
                     data-delay=".7s"
                     className="mt-20"
                   >
-                    Consectetur adipiscing elit aenean scelerisque at augue
-                    vitae consequat
+                    We provide expert IT services to help your business succeed.
                     <br />
-                    quisque eget congue velit in cursus leo sed sodales est eget
-                    turpis.
+                    Our team delivers reliable solutions and outstanding support for all your technology needs.
                   </p>
                   <Link
                     data-animation="slideInRight"
@@ -470,11 +466,9 @@ const Banner = () => {
                     data-delay=".7s"
                     className="mt-20"
                   >
-                    Consectetur adipiscing elit aenean scelerisque at augue
-                    vitae consequat
+                    We provide expert IT services to help your business succeed.
                     <br />
-                    quisque eget congue velit in cursus leo sed sodales est eget
-                    turpis.
+                    Our team delivers reliable solutions and outstanding support for all your technology needs.
                   </p>
                   <Link
                     data-animation="slideInRight"

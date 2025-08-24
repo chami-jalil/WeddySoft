@@ -133,8 +133,7 @@ const ServiceTwo = () => {
                       </Link>
                     </h4>
                     <p>
-                      Pellentesque nec the condimentum nec lorem nulla augue est
-                      ultricies ac iaculis.
+                      We keep your databases secure and protected, ensuring your data is safe from unauthorized access and threats.
                     </p>
                     <Link className="read-more-btn" href="service-details">
                       Read More{" "}
@@ -163,8 +162,7 @@ const ServiceTwo = () => {
                       </Link>
                     </h4>
                     <p>
-                      Pellentesque nec the condimentum nec lorem nulla augue est
-                      ultricies ac iaculis.
+                      Our IT consultancy services help you make smart technology decisions and optimize your business operations.
                     </p>
                     <Link className="read-more-btn" href="service-details">
                       Read More{" "}
@@ -193,8 +191,7 @@ const ServiceTwo = () => {
                       </Link>
                     </h4>
                     <p>
-                      Pellentesque nec the condimentum nec lorem nulla augue est
-                      ultricies ac iaculis.
+                      We develop custom mobile and web applications tailored to your business needs, delivering high performance and reliability.
                     </p>
                     <Link className="read-more-btn" href="service-details">
                       Read More{" "}
@@ -223,8 +220,7 @@ const ServiceTwo = () => {
                       </Link>
                     </h4>
                     <p>
-                      Pellentesque nec the condimentum nec lorem nulla augue est
-                      ultricies ac iaculis.
+                      We keep your databases secure and protected, ensuring your data is safe from unauthorized access and threats.
                     </p>
                     <Link className="read-more-btn" href="service-details">
                       Read More{" "}
@@ -253,8 +249,7 @@ const ServiceTwo = () => {
                       </Link>
                     </h4>
                     <p>
-                      Pellentesque nec the condimentum nec lorem nulla augue est
-                      ultricies ac iaculis.
+                      Our IT consultancy services help you make smart technology decisions and optimize your business operations.
                     </p>
                     <Link className="read-more-btn" href="service-details">
                       Read More{" "}
@@ -283,8 +278,7 @@ const ServiceTwo = () => {
                       </Link>
                     </h4>
                     <p>
-                      Pellentesque nec the condimentum nec lorem nulla augue est
-                      ultricies ac iaculis.
+                      We develop custom mobile and web applications tailored to your business needs, delivering high performance and reliability.
                     </p>
                     <Link className="read-more-btn" href="service-details">
                       Read More{" "}

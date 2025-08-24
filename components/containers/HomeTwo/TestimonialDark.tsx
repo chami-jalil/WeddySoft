@@ -90,9 +90,7 @@ const TestimonialDark = () => {
                     <i className="fa-sharp fa-solid fa-star disable"></i>
                   </div>
                   <p className="mb-30">
-                    “ Consectetur adipiscing elit. Integer nunc viverra laoreet
-                    est the is porta pretium metus aliquam eget maecenas porta
-                    is nunc nul viverra Aenean pulvinar maximus leo ”
+                    “ The team was very professional and responsive. They helped us achieve our goals quickly and efficiently. Highly recommended! ”
                   </p>
                   <div className="d-flex align-items-center gap-3">
                     <Image src={One} alt="Image" priority />
@@ -128,9 +126,7 @@ const TestimonialDark = () => {
                     <i className="fa-sharp fa-solid fa-star disable"></i>
                   </div>
                   <p className="mb-30">
-                    “ Consectetur adipiscing elit. Integer nunc viverra laoreet
-                    est the is porta pretium metus aliquam eget maecenas porta
-                    is nunc nul viverra Aenean pulvinar maximus leo ”
+                    “ Working with this company was a great experience. Their expertise and support made a big difference in our project’s success. ”
                   </p>
                   <div className="d-flex align-items-center gap-3">
                     <Image src={Two} alt="Image" priority />
@@ -166,9 +162,7 @@ const TestimonialDark = () => {
                     <i className="fa-sharp fa-solid fa-star disable"></i>
                   </div>
                   <p className="mb-30">
-                    “ Consectetur adipiscing elit. Integer nunc viverra laoreet
-                    est the is porta pretium metus aliquam eget maecenas porta
-                    is nunc nul viverra Aenean pulvinar maximus leo ”
+                    “ Their attention to detail and commitment to quality impressed us. The software testing process was thorough and helped us launch a reliable product. ”
                   </p>
                   <div className="d-flex align-items-center gap-3">
                     <Image src={Three} alt="Image" priority />
@@ -203,10 +197,8 @@ const TestimonialDark = () => {
                     <i className="fa-sharp fa-solid fa-star"></i>
                     <i className="fa-sharp fa-solid fa-star disable"></i>
                   </div>
-                  <p className="mb-30">
-                    “ Consectetur adipiscing elit. Integer nunc viverra laoreet
-                    est the is porta pretium metus aliquam eget maecenas porta
-                    is nunc nul viverra Aenean pulvinar maximus leo ”
+                 <p className="mb-30">
+                    “ The team was very professional and responsive. They helped us achieve our goals quickly and efficiently. Highly recommended! ”
                   </p>
                   <div className="d-flex align-items-center gap-3">
                     <Image src={One} alt="Image" priority />
@@ -242,9 +234,7 @@ const TestimonialDark = () => {
                     <i className="fa-sharp fa-solid fa-star disable"></i>
                   </div>
                   <p className="mb-30">
-                    “ Consectetur adipiscing elit. Integer nunc viverra laoreet
-                    est the is porta pretium metus aliquam eget maecenas porta
-                    is nunc nul viverra Aenean pulvinar maximus leo ”
+                    “ Working with this company was a great experience. Their expertise and support made a big difference in our project’s success. ”
                   </p>
                   <div className="d-flex align-items-center gap-3">
                     <Image src={Two} alt="Image" priority />
@@ -280,9 +270,7 @@ const TestimonialDark = () => {
                     <i className="fa-sharp fa-solid fa-star disable"></i>
                   </div>
                   <p className="mb-30">
-                    “ Consectetur adipiscing elit. Integer nunc viverra laoreet
-                    est the is porta pretium metus aliquam eget maecenas porta
-                    is nunc nul viverra Aenean pulvinar maximus leo ”
+                    “ Their attention to detail and commitment to quality impressed us. The software testing process was thorough and helped us launch a reliable product. ”
                   </p>
                   <div className="d-flex align-items-center gap-3">
                     <Image src={Three} alt="Image" priority />

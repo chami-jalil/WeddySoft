@@ -52,7 +52,7 @@ const BannerThree = () => {
                   data-aos-delay="0"
                   data-aos-duration="1500"
                 >
-                  TECHNOLOGY RELETED CONSULTANCY
+                  Technology Related Consultancy
                 </h4>
                 <h1
                   data-aos="fade-up"
@@ -60,7 +60,7 @@ const BannerThree = () => {
                   data-aos-delay="200"
                   data-aos-duration="1500"
                 >
-                  Make The Easiest Solution For You
+                  Making Solutions Simple for You
                 </h1>
                 <p
                   data-aos="fade-up"
@@ -68,9 +68,7 @@ const BannerThree = () => {
                   data-aos-delay="400"
                   data-aos-duration="1500"
                 >
-                  Consectetur adipiscing elit Aenean scelerisque at augue vitae
-                  consequat <br /> quisque eget congue velit in cursus leo Sed
-                  sodales
+                  We help you achieve your goals with expert advice and innovative technology. <br /> Our team is dedicated to providing practical solutions that make your business run smoothly.
                 </p>
                 <div
                   className="banner-three__info  mt-50"

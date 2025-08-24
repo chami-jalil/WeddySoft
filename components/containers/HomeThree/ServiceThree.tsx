@@ -68,8 +68,7 @@ const ServiceThree = () => {
                   </Link>
                 </h4>
                 <p className="text-white">
-                  Pellentesque nec the condimentum nec lorem nulla augue est
-                  ultricies ac iaculis.
+                  We keep your databases secure and protected, ensuring your data is safe from unauthorized access and threats.
                 </p>
                 <Link
                   className="mt-20 read-more-btn text-white"
@@ -110,8 +109,7 @@ const ServiceThree = () => {
                   </Link>
                 </h4>
                 <p className="text-white">
-                  Pellentesque nec the condimentum nec lorem nulla augue est
-                  ultricies ac iaculis.
+                  Our cyber security solutions safeguard your business from digital threats and keep your information secure.
                 </p>
                 <Link
                   className="mt-20 read-more-btn text-white"
@@ -152,8 +150,7 @@ const ServiceThree = () => {
                   </Link>
                 </h4>
                 <p className="text-white">
-                  Pellentesque nec the condimentum nec lorem nulla augue est
-                  ultricies ac iaculis.
+                  We manage your IT systems efficiently, keeping everything running smoothly and securely for your business.
                 </p>
                 <Link
                   className="mt-20 read-more-btn text-white"

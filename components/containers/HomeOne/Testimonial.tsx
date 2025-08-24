@@ -173,10 +173,7 @@ const Testimonial = () => {
                         </div>
                       </div>
                       <p className="mt-30">
-                        “ Consectetur adipiscing elit. Integer nunc viverra
-                        laoreet est the is porta pretium metus aliquam eget
-                        maecenas porta is nunc viverra Aenean pulvinar maximus
-                        leo ”
+                        “ The team was very professional and responsive. They helped us achieve our goals quickly and efficiently. Highly recommended! ”
                       </p>
                     </div>
                   </div>
@@ -212,10 +209,7 @@ const Testimonial = () => {
                         </div>
                       </div>
                       <p className="mt-30">
-                        “ Consectetur adipiscing elit. Integer nunc viverra
-                        laoreet est the is porta pretium metus aliquam eget
-                        maecenas porta is nunc viverra Aenean pulvinar maximus
-                        leo ”
+                        “ Great experience working with this company. Their expertise and support made a big difference in our project’s success. ”
                       </p>
                     </div>
                   </div>

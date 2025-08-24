@@ -57,8 +57,7 @@ const FooterTwo = () => {
               <Image src={Logo} alt="Image" priority />
             </Link>
             <p>
-              Phasellus ultricies aliquam volutpat ullamcorper laoreet neque, a
-              lacinia curabitur lacinia mollis
+              We provide reliable IT solutions and support to help your business grow. Our team is dedicated to delivering quality service and innovative technology for all your needs.
             </p>
             <div className="social-icon">
               <Link href="/">
