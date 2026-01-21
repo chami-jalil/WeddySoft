@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import ModalVideo from "react-modal-video";
 import Line from "@/public/images/shape/about-line.png";
-import One from "@/public/images/about/about-image1.jpg";
+import One from "@/public/images/about/abt-img.jpg";
 import Two from "@/public/images/about/about-image2.png";
 import Circle from "@/public/images/shape/about-circle.png";
 import Three from "@/public/images/icon/section-title.png";
