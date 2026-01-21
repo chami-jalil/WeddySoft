@@ -4,24 +4,13 @@ import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, EffectFade, Pagination } from "swiper/modules";
 import "swiper/swiper-bundle.css";
-import Line from "@/public/images/banner/banner-line.png";
-import LineTwo from "@/public/images/banner/banner-right-line3.png";
-import LineThree from "@/public/images/banner/banner-right-line4.png";
-import One from "@/public/images/banner/banner-regular-left-shape.png";
-import Two from "@/public/images/banner/banner-solid-left-shape.png";
-import Three from "@/public/images/banner/banner-shape-left.png";
-import Four from "@/public/images/banner/banner-shape-right-line.png";
-import Five from "@/public/images/banner/banner-shape-right.png";
-import Six from "@/public/images/banner/banner-right-line1.png";
-import Seven from "@/public/images/banner/banner-right-line2.png";
-import Eight from "@/public/images/banner/banner-right-line3.png";
-import Nine from "@/public/images/banner/banner-right-line4.png";
 
 const Banner = () => {
   return (
     <section className="banner-area">
       <div className="banner__line">
-        <Image className="sway__animation" src={Line} alt="shape" priority />
+        <Image className="sway__animation" src="/images/banner/banner-line.png" alt="shape"   width={400}
+  height={50} priority />
       </div>
       <div className=" banner__slider">
         <Swiper
@@ -51,7 +40,7 @@ const Banner = () => {
                 data-delay=".3s"
                 className="banner__shape-left2"
               >
-                <Image src={One} alt="shape" priority />
+                <Image src="/images/banner/banner-regular-left-shape.png" alt="shape"   width={400} height={50} priority />
               </div>
               <div
                 data-animation="slideInLeft"
@@ -59,13 +48,15 @@ const Banner = () => {
                 data-delay=".9s"
                 className="banner__shape-left1"
               >
-                <Image src={Two} alt="shape" priority />
+                <Image src="/images/banner/banner-solid-left-shape.png" alt="shape"   width={400} height={50} priority />
               </div>
               <div className="banner__shape-left3 " data-aos="fade-left">
                 <Image
                   className="sway__animation"
-                  src={Three}
+                  src="/images/banner/banner-shape-left.png"
                   alt="shape"
+                  width={400}
+                  height={50}
                   priority
                 />
               </div>
@@ -75,7 +66,7 @@ const Banner = () => {
                 data-duration="3s"
                 data-delay=".3s"
               >
-                <Image src={Four} alt="shape" priority />
+                <Image src="/images/banner/banner-shape-right-line.png" alt="shape"  width={400} height={50} priority />
               </div>
               <div
                 className="banner__shape-right1"
@@ -83,7 +74,7 @@ const Banner = () => {
                 data-duration="2s"
                 data-delay=".3s"
               >
-                <Image src={Five} alt="shape" priority />
+                <Image src="/images/banner/banner-shape-right.png" alt="shape" width={400} height={50} priority />
               </div>
               <div
                 className="banner__right-line1"
@@ -91,7 +82,7 @@ const Banner = () => {
                 data-duration="2s"
                 data-delay=".9s"
               >
-                <Image src={Six} alt="shape" priority />
+                <Image src="/images/banner/banner-right-line1.png" alt="shape" width={400} height={50} priority />
               </div>
               <div
                 className="banner__right-line2"
@@ -99,7 +90,7 @@ const Banner = () => {
                 data-duration="2s"
                 data-delay=".7s"
               >
-                <Image src={Seven} alt="shape" priority />
+                <Image src="/images/banner/banner-right-line2.png" alt="shape" width={400} height={50} priority />
               </div>
               <div
                 className="banner__right-line3"
@@ -107,7 +98,7 @@ const Banner = () => {
                 data-duration="2s"
                 data-delay=".5s"
               >
-                <Image src={Eight} alt="shape" priority />
+                <Image src="/images/banner/banner-right-line3.png" alt="shape" width={400} height={50} priority />
               </div>
               <div
                 className="banner__right-line4"
@@ -115,12 +106,12 @@ const Banner = () => {
                 data-duration="2s"
                 data-delay=".3s"
               >
-                <Image src={Nine} alt="shape" priority />
+                <Image src="/images/banner/banner-right-line4.png" alt="shape" width={400} height={50} priority />
               </div>
               <div
                 className="slide-bg"
                 style={{
-                  backgroundImage: "url(/images/banner/banner-image.jpg)",
+                  backgroundImage: "url(/images/banner/weddybanner3.jpg)",
                 }}
               ></div>
               <div className="container">
@@ -198,7 +189,7 @@ const Banner = () => {
                 data-delay=".3s"
                 className="banner__shape-left2"
               >
-                <Image src={One} alt="shape" priority />
+                <Image src="/images/banner/banner-regular-left-shape.png" alt="shape"   width={400} height={50} priority />
               </div>
               <div
                 data-animation="slideInLeft"
@@ -206,13 +197,15 @@ const Banner = () => {
                 data-delay=".9s"
                 className="banner__shape-left1"
               >
-                <Image src={Two} alt="shape" priority />
+                <Image src="/images/banner/banner-solid-left-shape.png" alt="shape"  width={400} height={50} priority />
               </div>
               <div className="banner__shape-left3 " data-aos="fade-left">
                 <Image
                   className="sway__animation"
-                  src={Three}
+                  src="/images/banner/banner-shape-left.png"
                   alt="shape"
+                  width={400}
+                  height={50}
                   priority
                 />
               </div>
@@ -222,7 +215,7 @@ const Banner = () => {
                 data-duration="3s"
                 data-delay=".3s"
               >
-                <Image src={Four} alt="shape" priority />
+                <Image src="/images/banner/banner-shape-right-line.png" alt="shape"   width={400} height={50} priority />
               </div>
               <div
                 className="banner__shape-right1"
@@ -230,7 +223,7 @@ const Banner = () => {
                 data-duration="2s"
                 data-delay=".3s"
               >
-                <Image src={Five} alt="shape" priority />
+                <Image src="/images/banner/banner-shape-right.png" alt="shape" width={400} height={50} priority />
               </div>
               <div
                 className="banner__right-line1"
@@ -238,7 +231,7 @@ const Banner = () => {
                 data-duration="2s"
                 data-delay=".9s"
               >
-                <Image src={Six} alt="shape" priority />
+                <Image src="/images/banner/banner-right-line1.png" alt="shape" width={400} height={50} priority />
               </div>
               <div
                 className="banner__right-line2"
@@ -246,7 +239,7 @@ const Banner = () => {
                 data-duration="2s"
                 data-delay=".7s"
               >
-                <Image src={Seven} alt="shape" priority />
+                <Image src="/images/banner/banner-right-line2.png" alt="shape" width={400} height={50} priority />
               </div>
               <div
                 className="banner__right-line3"
@@ -254,7 +247,7 @@ const Banner = () => {
                 data-duration="2s"
                 data-delay=".5s"
               >
-                <Image src={LineTwo} alt="shape" priority />
+                <Image src="/images/banner/banner-right-line3.png" alt="shape" width={400} height={50} priority />
               </div>
               <div
                 className="banner__right-line4"
@@ -262,12 +255,12 @@ const Banner = () => {
                 data-duration="2s"
                 data-delay=".3s"
               >
-                <Image src={LineThree} alt="shape" priority />
+                <Image src="/images/banner/banner-right-line4.png" alt="shape" width={400} height={50} priority />
               </div>
               <div
                 className="slide-bg"
                 style={{
-                  backgroundImage: "url(/images/banner/banner-image2.jpg)",
+                  backgroundImage: "url(/images/banner/weddybanner3.jpg)",
                 }}
               ></div>
               <div className="container">
@@ -345,7 +338,7 @@ const Banner = () => {
                 data-delay=".3s"
                 className="banner__shape-left2"
               >
-                <Image src={One} alt="shape" priority />
+                <Image src="/images/banner/banner-regular-left-shape.png" alt="shape"   width={400} height={50} priority />
               </div>
               <div
                 data-animation="slideInLeft"
@@ -353,13 +346,15 @@ const Banner = () => {
                 data-delay=".9s"
                 className="banner__shape-left1"
               >
-                <Image src={Two} alt="shape" priority />
+                <Image src="/images/banner/banner-solid-left-shape.png" alt="shape"  width={400} height={50} priority />
               </div>
               <div className="banner__shape-left3 " data-aos="fade-left">
                 <Image
                   className="sway__animation"
-                  src={Three}
+                  src="/images/banner/banner-shape-left.png"
                   alt="shape"
+                  width={400}
+                  height={50}
                   priority
                 />
               </div>
@@ -369,7 +364,7 @@ const Banner = () => {
                 data-duration="3s"
                 data-delay=".3s"
               >
-                <Image src={Four} alt="shape" priority />
+                <Image src="/images/banner/banner-shape-right-line.png" alt="shape"   width={400} height={50} priority />
               </div>
               <div
                 className="banner__shape-right1"
@@ -377,7 +372,7 @@ const Banner = () => {
                 data-duration="2s"
                 data-delay=".3s"
               >
-                <Image src={Five} alt="shape" priority />
+                <Image src="/images/banner/banner-shape-right.png" alt="shape" width={400} height={50} priority />
               </div>
               <div
                 className="banner__right-line1"
@@ -385,7 +380,7 @@ const Banner = () => {
                 data-duration="2s"
                 data-delay=".9s"
               >
-                <Image src={Six} alt="shape" priority />
+                <Image src="/images/banner/banner-right-line1.png" alt="shape" width={400} height={50} priority />
               </div>
               <div
                 className="banner__right-line2"
@@ -393,7 +388,7 @@ const Banner = () => {
                 data-duration="2s"
                 data-delay=".7s"
               >
-                <Image src={Seven} alt="shape" priority />
+                <Image src="/images/banner/banner-right-line2.png" alt="shape" width={400} height={50} priority />
               </div>
               <div
                 className="banner__right-line3"
@@ -401,7 +396,7 @@ const Banner = () => {
                 data-duration="2s"
                 data-delay=".5s"
               >
-                <Image src={LineTwo} alt="shape" priority />
+                <Image src="/images/banner/banner-right-line3.png" alt="shape" width={400} height={50} priority />
               </div>
               <div
                 className="banner__right-line4"
@@ -409,12 +404,12 @@ const Banner = () => {
                 data-duration="2s"
                 data-delay=".3s"
               >
-                <Image src={LineThree} alt="shape" priority />
+                <Image src="/images/banner/banner-right-line4.png" alt="shape" width={400} height={50} priority />
               </div>
               <div
                 className="slide-bg"
                 style={{
-                  backgroundImage: "url(/images/banner/banner-image3.jpg)",
+                  backgroundImage: "url(/images/banner/weddybanner3.jpg)",
                 }}
               ></div>
               <div className="container">

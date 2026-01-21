@@ -13,7 +13,6 @@ import Six from "@/public/images/brand/website.png";
 import Seven from "@/public/images/brand/android.png";
 import Eight from "@/public/images/brand/ios1.png";
 
-
 const BrandThree = () => {
   return (
     <div
