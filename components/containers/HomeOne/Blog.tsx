@@ -1,9 +1,9 @@
 import Link from "next/link";
 import Image from "next/image";
 import Title from "@/public/images/icon/section-title.png";
-import One from "@/public/images/blog/blog-image1.jpg";
-import Two from "@/public/images/blog/blog-image2.jpg";
-import Three from "@/public/images/blog/blog-image3.jpg";
+import One from "@/public/images/blog/virtual.png";
+import Two from "@/public/images/blog/retail.jpg";
+import Three from "@/public/images/blog/server.jpg";
 
 const Blog = () => {
   return (
