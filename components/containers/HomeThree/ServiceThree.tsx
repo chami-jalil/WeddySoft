@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import One from "@/public/images/shape/service-three-shape.png";
 import Two from "@/public/images/icon/section-title.png";
-import Three from "@/public/images/service/service-three-image.jpg";
+import Three from "@/public/images/service/service-three-image1.jpg";
 import Four from "@/public/images/service/service-three-image2.jpg";
 import Five from "@/public/images/service/service-three-image3.jpg";
 import Six from "@/public/images/icon/service-three-icon1.png";
