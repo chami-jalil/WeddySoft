@@ -133,13 +133,13 @@ const ServiceThree = () => {
               </div>
               <div className="service-three__content">
                 <div className="icon">
-                  <Image  src="/images/about/IT.jpg" height={1600} width={1370} alt="icon" priority />
+                  <Image  src={Eight}  alt="icon" priority />
                 </div>
                 <h4>IT Management</h4>
               </div>
               <div className="service-three__up-content text-center">
                 <div className="icon">
-                  <Image  src="/images/about/IT.jpg" height={1600} width={1370} alt="icon" priority />
+                  <Image  src={Eleven} alt="icon" priority />
                 </div>
                 <h4>
                   <Link

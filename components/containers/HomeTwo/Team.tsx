@@ -66,7 +66,7 @@ const Team = () => {
               <div className="team__content">
                 <h4>
                   <Link className="text-white" href="team-details">
-                    Kawser Ahmed
+                    Vijay Antony
                   </Link>
                 </h4>
                 <span className="text-white">Web Designer</span>

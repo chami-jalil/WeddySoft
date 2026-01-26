@@ -197,7 +197,7 @@ const BlogStandard = () => {
                       <Link href="/" className="primary-color">
                         By Admin
                       </Link>
-                      <h5>Kawser Ahmed</h5>
+                      <h5>Vijay Antony</h5>
                     </div>
                   </div>
                   <Link href="blog-details" className="btn-one">

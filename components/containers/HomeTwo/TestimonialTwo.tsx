@@ -167,7 +167,7 @@ const TestimonialTwo = () => {
                   <div className="d-flex align-items-center gap-3">
                     <Image src={Three} alt="Image" priority />
                     <div className="con">
-                      <h4>Kawser Ahmed</h4>
+                      <h4>Vijay Antony</h4>
                       <span>Web Designer</span>
                     </div>
                   </div>
@@ -275,7 +275,7 @@ const TestimonialTwo = () => {
                   <div className="d-flex align-items-center gap-3">
                     <Image src={Three} alt="Image" priority />
                     <div className="con">
-                      <h4>Kawser Ahmed</h4>
+                      <h4>Vijay Antony</h4>
                       <span>Web Designer</span>
                     </div>
                   </div>
