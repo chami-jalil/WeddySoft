@@ -29,7 +29,7 @@ const TeamSingle = () => {
           <div className="col-lg-8">
             <div className="team-single__content">
               <div className="title pb-20 mb-20 bor-bottom">
-                <h3>Kawser Ahmed</h3>
+                <h3>Vijay Antony</h3>
                 <span className="primary-color mt-1">Web Designer</span>
               </div>
               <div className="team-single__info">

@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import Image from "next/image";
+import Image from "next/image";    
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper/modules";
 import "swiper/swiper-bundle.css";
@@ -172,7 +172,7 @@ const CaseTwo = () => {
               <div className="swiper-slide">
                 <div className="case-two__item">
                   <div className="image case-two__image">
-                    <Image src="/images/about/Platform-Integration.jpg" height={1600} width={1370} alt="Image" priority />
+                    <Image src="/images/about/Integration-Platform.png" height={1600} width={1370} alt="Image" priority />
                   </div>
                   <div className="case-two__content">
                     <span>Technology</span>
