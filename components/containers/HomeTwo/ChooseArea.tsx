@@ -1,7 +1,5 @@
 "use client";
-import { useState } from "react";
 import Image from "next/image";
-import ModalVideo from "react-modal-video";
 import One from "@/public/images/shape/choose-shape-right.png";
 import Two from "@/public/images/shape/choose-shape-right2.png";
 import Three from "@/public/images/shape/choose-shape-left.png";
@@ -10,22 +8,11 @@ import Five from "@/public/images/icon/about-icon1.png";
 import Six from "@/public/images/icon/about-icon2.png";
 
 const ChooseArea = () => {
-  const [isOpen, setOpen] = useState(false);
+
   return (
     <>
       <section className="choose-area sub-bg pt-120 pb-120">
-        <div className="choose__video-btn">
-          <div
-            className="video-btn video-pulse "
-            data-aos="zoom-in"
-            data-aos-delay="200"
-            data-aos-duration="1500"
-          >
-            <a className="video-popup" onClick={() => setOpen(true)}>
-              <i className="fa-solid fa-play"></i>
-            </a>
-          </div>
-        </div>
+     
         <div
           className="choose__shape-right1 d-none d-lg-block"
           data-aos="fade-right"
@@ -185,13 +172,6 @@ const ChooseArea = () => {
           </div>
         </div>
       </section>
-      <ModalVideo
-        channel="youtube"
-        youtube={{ mute: 0, autoplay: 0 }}
-        isOpen={isOpen}
-        videoId="iVqz_4M5mA0"
-        onClose={() => setOpen(false)}
-      />
     </>
   );
 };

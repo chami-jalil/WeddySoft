@@ -7,10 +7,10 @@ import Line from "@/public/images/shape/brand-three-line1.png";
 import One from "@/public/images/shape/brand-three-shape1.png";
 import Two from "@/public/images/shape/brand-three-line2.png";
 import Three from "@/public/images/shape/brand-three-shape2.png";
-import Four from "@/public/images/brand/watch.png";
+import Four from "@/public/images/brand/watch1.png";
 import Five from "@/public/images/brand/tv.png";
-import Six from "@/public/images/brand/website.png";
-import Seven from "@/public/images/brand/android.png";
+import Six from "@/public/images/brand/website1.png";
+import Seven from "@/public/images/brand/android1.png";
 import Eight from "@/public/images/brand/ios1.png";
 
 

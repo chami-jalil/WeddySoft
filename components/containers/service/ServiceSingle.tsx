@@ -2,13 +2,11 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import ModalVideo from "react-modal-video";
 import One from "@/public/images/service/service-single-image1.jpg";
 import Two from "@/public/images/service/service-single-image2.jpg";
 
 const ServiceSingle = () => {
   const [imgTab, setImgTab] = useState(0);
-  const [isOpen, setOpen] = useState(false);
   return (
     <>
       <section className="service-single-area pt-120 pb-120">
@@ -18,18 +16,7 @@ const ServiceSingle = () => {
               <div className="service-single__left-item">
                 <div className="image mb-50">
                   <Image src={One} alt="Image" priority />
-                  <div className="service-single__video-btn">
-                    <div
-                      className="video-btn video-pulse "
-                      data-aos="zoom-in"
-                      data-aos-delay="200"
-                      data-aos-duration="1500"
-                    >
-                      <a className="video-popup" onClick={() => setOpen(true)}>
-                        <i className="fa-solid fa-play"></i>
-                      </a>
-                    </div>
-                  </div>
+                  {/* Video button removed as requested */}
                 </div>
                 <h3 className="title mb-30">IT Management</h3>
                 <p className="mb-20">
@@ -357,13 +344,7 @@ const ServiceSingle = () => {
           </div>
         </div>
       </section>
-      <ModalVideo
-        channel="youtube"
-        youtube={{ mute: 0, autoplay: 0 }}
-        isOpen={isOpen}
-        videoId="iVqz_4M5mA0"
-        onClose={() => setOpen(false)}
-      />
+      {/* ModalVideo removed as requested */}
     </>
   );
 };

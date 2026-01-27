@@ -2,7 +2,6 @@
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import ModalVideo from "react-modal-video";
 import Line from "@/public/images/shape/about-line.png";
 import One from "@/public/images/about/abt-img.png";
 import Two from "@/public/images/about/about-image2.png";
@@ -13,8 +12,7 @@ import Five from "@/public/images/icon/about-icon2.png";
 import Six from "@/public/images/about/about-info.png";
 
 const About = () => {
-  const [isOpen, setOpen] = useState(false);
-
+  
   return (
     <>
       <section className="about-area sub-bg pt-120" id="about-section">
@@ -39,13 +37,7 @@ const About = () => {
                   <Image src={One} alt="Image" priority />
                 </div>
                 <div className="image sm-image">
-                  <div className="video__btn-wrp">
-                    <div className="video-btn video-pulse">
-                      <a className="video-popup" onClick={() => setOpen(true)}>
-                        <i className="fa-solid fa-play"></i>
-                      </a>
-                    </div>
-                  </div>
+                  {/* Video button removed as requested */}
                   <Image src={Two} alt="Image" priority />
                 </div>
                 <div className="circle-shape">
@@ -132,13 +124,7 @@ const About = () => {
           </div>
         </div>
       </section>
-      <ModalVideo
-        channel="youtube"
-        youtube={{ mute: 0, autoplay: 0 }}
-        isOpen={isOpen}
-        videoId="iVqz_4M5mA0"
-        onClose={() => setOpen(false)}
-      />
+      {/* ModalVideo removed as requested */}
     </>
   );
 };

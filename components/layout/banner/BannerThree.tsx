@@ -1,15 +1,13 @@
 "use client";
-import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import ModalVideo from "react-modal-video";
 import One from "@/public/images/bg/banner-three-bg.png";
 import Two from "@/public/images/banner/banner-three-left-shape.png";
 import Three from "@/public/images/banner/banner-three-right-shape.png";
 import Four from "@/public/images/banner/banner-three-image.png";
 
 const BannerThree = () => {
-  const [isOpen, setOpen] = useState(false);
+
   return (
     <>
       <div className="banner-three-area">
@@ -86,11 +84,7 @@ const BannerThree = () => {
                     <i className="fa-regular fa-arrow-right-long"></i>
                   </Link>
                   <div className="banner-three__video-btn d-flex gap-4 align-items-center">
-                    <div className="video-btn video-pulse">
-                      <a className="video-popup" onClick={() => setOpen(true)}>
-                        <i className="fa-solid fa-play"></i>
-                      </a>
-                    </div>
+                 
                     <h5 className="text-white">How It Works</h5>
                   </div>
                 </div>
@@ -109,13 +103,6 @@ const BannerThree = () => {
           </div>
         </div>
       </div>
-      <ModalVideo
-        channel="youtube"
-        youtube={{ mute: 0, autoplay: 0 }}
-        isOpen={isOpen}
-        videoId="iVqz_4M5mA0"
-        onClose={() => setOpen(false)}
-      />
     </>
   );
 };
