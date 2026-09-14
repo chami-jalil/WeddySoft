@@ -151,6 +151,12 @@ const FooterTwo = () => {
                   <i className="fa-regular fa-angles-right me-1"></i> Our Team
                 </Link>
               </li>
+              <li>
+                <Link href="/privacy-policy">
+                  <i className="fa-regular fa-angles-right me-1"></i> Privacy
+                  Policy
+                </Link>
+              </li>
             </ul>
           </div>
           <div
@@ -198,7 +204,7 @@ const FooterTwo = () => {
                 <Link href="/">Terms & Condition</Link>
               </li>
               <li>
-                <Link href="/">Privacy Policy</Link>
+                <Link href="/privacy-policy">Privacy Policy</Link>
               </li>
             </ul>
           </div>
