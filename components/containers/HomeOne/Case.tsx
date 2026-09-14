@@ -1,14 +1,7 @@
-"use client";
 import Link from "next/link";
 import Image from "next/image";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Pagination } from "swiper/modules";
-import "swiper/swiper-bundle.css";
 import One from "@/public/images/icon/section-title.png";
-import Two from "@/public/images/case/case-image1.jpg";
-import Three from "@/public/images/case/case-image2.jpg";
-import Four from "@/public/images/case/case-image3.jpg";
-import Five from "@/public/images/case/case-image4.jpg";
+import { projects } from "@/data/projects";
 
 const Case = () => {
   return (
@@ -21,250 +14,63 @@ const Case = () => {
               data-aos-delay="0"
               data-aos-duration="1500"
             >
-              <Image className="me-1" src={One} alt="icon" priority />
-              FROM OUR CASE studies
+              <Image className="me-1" src={One} alt="" />
+              Featured Work
             </h5>
             <h2
               data-aos="fade-left"
               data-aos-delay="200"
               data-aos-duration="1500"
             >
-              We Delivered Best Solution
+              Featured Work
             </h2>
+            <p className="mt-3 mb-0" data-aos="fade-left" data-aos-delay="300">
+              Explore some of the digital products and platforms we&apos;ve
+              designed and developed.
+            </p>
           </div>
           <Link
-            href="case"
+            href="/case"
             className="btn-one "
             data-aos="fade-up"
             data-aos-delay="200"
             data-aos-duration="1500"
           >
-            view All Case <i className="fa-regular fa-arrow-right-long"></i>
+            View All Work <i className="fa-regular fa-arrow-right-long"></i>
           </Link>
         </div>
-      </div>
-      <div className="case__slider">
-        <Swiper
-          slidesPerView={1}
-          spaceBetween={24}
-          speed={800}
-          loop={true}
-          roundLengths={true}
-          modules={[Autoplay, Pagination]}
-          autoplay={{
-            delay: 4000,
-            disableOnInteraction: false,
-          }}
-          pagination={{
-            el: ".case__dot",
-            clickable: true,
-          }}
-          breakpoints={{
-            1440: {
-              slidesPerView: 4,
-            },
-            992: {
-              slidesPerView: 3,
-            },
-            576: {
-              slidesPerView: 2,
-            },
-          }}
-          className="swiper-wrapper"
-        >
-          <SwiperSlide>
-            <div>
+        <div className="row g-4">
+          {projects.map((project) => (
+            <div className="col-xl-4 col-lg-6 col-md-6" key={project.slug}>
               <div className="case__item">
                 <div className="image case__image">
-                  <Image src="/images/about/IT.jpg" height={1600} width={1370} alt="Image"  priority />
+                  <Image
+                    src={project.cover.src}
+                    alt={project.cover.alt}
+                    width={1370}
+                    height={1600}
+                  />
                 </div>
                 <div className="case__content">
-                  <span className="primary-color sm-font">Solution</span>
+                  <span className="primary-color sm-font">
+                    {project.category}
+                  </span>
                   <h3>
                     <Link
-                      href="case-details"
+                      href={`/case/${project.slug}`}
                       className="text-white primary-hover"
                     >
-                      IT Management
+                      {project.title}
                     </Link>
                   </h3>
                 </div>
-                <Link href="case-details" className="case__btn">
+                <Link href={`/case/${project.slug}`} className="case__btn">
                   <i className="fa-regular fa-arrow-right"></i>
                 </Link>
               </div>
             </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div>
-              <div className="case__item">
-                <div className="image case__image">
-                  <Image src="/images/about/Integration-Platform.png" height={1600} width={1370} alt="Image" priority />
-                </div>
-                <div className="case__content">
-                  <span className="primary-color sm-font">Technology</span>
-                  <h3>
-                    <Link
-                      href="case-details"
-                      className="text-white primary-hover"
-                    >
-                      Platform Integration
-                    </Link>
-                  </h3>
-                </div>
-                <Link href="case-details" className="case__btn">
-                  <i className="fa-regular fa-arrow-right"></i>
-                </Link>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div>
-              <div className="case__item">
-                <div className="image case__image">
-                  <Image src="/images/about/web1.jpg" height={1600} width={1370} alt="Image" priority />
-                </div>
-                <div className="case__content">
-                  <span className="primary-color sm-font">Solution</span>
-                  <h3>
-                    <Link
-                      href="case-details"
-                      className="text-white primary-hover"
-                    >
-                      Web Development
-                    </Link>
-                  </h3>
-                </div>
-                <Link href="case-details" className="case__btn">
-                  <i className="fa-regular fa-arrow-right"></i>
-                </Link>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div>
-              <div className="case__item">
-                <div className="image case__image">
-                  <Image src="/images/about/Network.jpg" height={1800} width={1470}  alt="Image" priority />
-                </div>
-                <div className="case__content">
-                  <span className="primary-color sm-font">Security</span>
-                  <h3>
-                    <Link
-                      href="case-details"
-                      className="text-white primary-hover"
-                    >
-                      Network Security
-                    </Link>
-                  </h3>
-                </div>
-                <Link href="case-details" className="case__btn">
-                  <i className="fa-regular fa-arrow-right"></i>
-                </Link>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div>
-              <div className="case__item">
-                <div className="image case__image">
-                  <Image  src="/images/about/IT.jpg" height={1600} width={1370} alt="Image" priority />
-                </div>
-                <div className="case__content">
-                  <span className="primary-color sm-font">Solution</span>
-                  <h3>
-                    <Link
-                      href="case-details"
-                      className="text-white primary-hover"
-                    >
-                      IT Management
-                    </Link>
-                  </h3>
-                </div>
-                <Link href="case-details" className="case__btn">
-                  <i className="fa-regular fa-arrow-right"></i>
-                </Link>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div>
-              <div className="case__item">
-                <div className="image case__image">
-                  <Image src="/images/about/Integration-Platform.png" height={1600} width={1370} alt="Image" priority />
-                </div>
-                <div className="case__content">
-                  <span className="primary-color sm-font">Technology</span>
-                  <h3>
-                    <Link
-                      href="case-details"
-                      className="text-white primary-hover"
-                    >
-                      Platform Integration
-                    </Link>
-                  </h3>
-                </div>
-                <Link href="case-details" className="case__btn">
-                  <i className="fa-regular fa-arrow-right"></i>
-                </Link>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div>
-              <div className="case__item">
-                <div className="image case__image">
-                  <Image src="/images/about/web1.jpg" height={1600} width={1370} alt="Image" priority />
-                </div>
-                <div className="case__content">
-                  <span className="primary-color sm-font">Solution</span>
-                  <h3>
-                    <Link
-                      href="case-details"
-                      className="text-white primary-hover"
-                    >
-                      Web Development
-                    </Link>
-                  </h3>
-                </div>
-                <Link href="case-details" className="case__btn">
-                  <i className="fa-regular fa-arrow-right"></i>
-                </Link>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div>
-              <div className="case__item">
-                <div className="image case__image">
-                  <Image src="/images/about/Network.jpg" height={1800} width={1470}  alt="Image" priority />
-                </div>
-                <div className="case__content">
-                  <span className="primary-color sm-font">Security</span>
-                  <h3>
-                    <Link
-                      href="case-details"
-                      className="text-white primary-hover"
-                    >
-                      Network Security
-                    </Link>
-                  </h3>
-                </div>
-                <Link href="case-details" className="case__btn">
-                  <i className="fa-regular fa-arrow-right"></i>
-                </Link>
-              </div>
-            </div>
-          </SwiperSlide>
-        </Swiper>
-      </div>
-      <div
-        className="mt-60 text-center "
-        data-aos="fade-up"
-        data-aos-delay="200"
-        data-aos-duration="1500"
-      >
-        <div className="dot case__dot"></div>
+          ))}
+        </div>
       </div>
     </section>
   );

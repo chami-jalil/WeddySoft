@@ -18,7 +18,7 @@ const CmnBanner = ({ title }: any) => {
         data-aos-delay="0"
         data-aos-duration="1500"
       >
-        <Image src={One} alt="shape" priority />
+        <Image src={One} alt="" />
       </div>
       <div
         className="shape1 "
@@ -26,7 +26,7 @@ const CmnBanner = ({ title }: any) => {
         data-aos-delay="200"
         data-aos-duration="1500"
       >
-        <Image src={Two} alt="shape" priority />
+        <Image src={Two} alt="" />
       </div>
       <div
         className="shape3 "
@@ -34,7 +34,7 @@ const CmnBanner = ({ title }: any) => {
         data-aos-delay="200"
         data-aos-duration="1500"
       >
-        <Image className="sway__animationX" src={Three} alt="shape" priority />
+        <Image className="sway__animationX" src={Three} alt="" />
       </div>
       <div className="container">
         <h2

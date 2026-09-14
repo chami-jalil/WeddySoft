@@ -120,7 +120,7 @@ const Banner = () => {
               <div
                 className="slide-bg"
                 style={{
-                  backgroundImage: "url(/images/banner/weddybanner.jpg)",
+                  backgroundImage: "url(/images/banner/weddybanner.webp)",
                 }}
               ></div>
               <div className="container">
@@ -267,7 +267,7 @@ const Banner = () => {
               <div
                 className="slide-bg"
                 style={{
-                  backgroundImage: "url(/images/banner/weddybanner.jpg)",
+                  backgroundImage: "url(/images/banner/weddybanner.webp)",
                 }}
               ></div>
               <div className="container">
@@ -414,7 +414,7 @@ const Banner = () => {
               <div
                 className="slide-bg"
                 style={{
-                  backgroundImage: "url(/images/banner/weddybanner.jpg)",
+                  backgroundImage: "url(/images/banner/weddybanner.webp)",
                 }}
               ></div>
               <div className="container">

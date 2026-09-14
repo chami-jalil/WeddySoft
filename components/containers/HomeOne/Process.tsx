@@ -1,9 +1,9 @@
 import Image from "next/image";
 import One from "@/public/images/icon/section-title.png";
 import Two from "@/public/images/process/process-arry.png";
-import Three from "@/public/images/process/Idea.jpg";
-import Four from "@/public/images/process/design.png";
-import Five from "@/public/images/process/software deploy.webp";
+import Three from "@/public/images/process/discover.webp";
+import Four from "@/public/images/process/design.webp";
+import Five from "@/public/images/process/deliver.webp";
 
 const Process = () => {
   return (
@@ -16,7 +16,7 @@ const Process = () => {
             data-aos-delay="0"
             data-aos-duration="1500"
           >
-            <Image className="me-1" src={One} alt="icon" priority />
+              <Image className="me-1" src={One} alt="" />
             Work Process
           </h5>
           <h2
@@ -40,14 +40,14 @@ const Process = () => {
                 <Image src={Two} alt="arry-icon" />
               </div>
               <div className="process__image">
-                <Image src={Three} alt="Image" priority />
+                <Image src={Three} alt="Discover requirements" />
                 <span className="process-number">1</span>
               </div>
               <div className="process__content">
-                <h4 className="mt-25 mb-10">Define Requirements</h4>
+                <h4 className="mt-25 mb-10">Discover</h4>
                 <p>
-                  In a free hour, when our power of choice is untrammelled and
-                  when nothing prevents dolor sit amet, consectetur
+                  We start by understanding your requirements, constraints, and
+                  the outcome you need from the website or Android application.
                 </p>
               </div>
             </div>
@@ -63,14 +63,14 @@ const Process = () => {
                 <Image src={Two} alt="arry-icon" />
               </div>
               <div className="process__image">
-                <Image src={Four} alt="Image" priority />
+                <Image src={Four} alt="Design and prototyping" />
                 <span className="process-number">2</span>
               </div>
               <div className="process__content">
-                <h4 className="mt-25 mb-10">Design & Prototyping</h4>
+                <h4 className="mt-25 mb-10">Design</h4>
                 <p>
-                  In a free hour, when our power of choice is untrammelled and
-                  when nothing prevents dolor sit amet, consectetur
+                  We design and prototype the solution so you can review the
+                  approach before we build.
                 </p>
               </div>
             </div>
@@ -83,14 +83,14 @@ const Process = () => {
           >
             <div className="process__item">
               <div className="process__image">
-                <Image src={Five} alt="Image" priority />
+                <Image src={Five} alt="Deliver the finished solution" />
                 <span className="process-number">3</span>
               </div>
               <div className="process__content">
-                <h4 className="mt-25 mb-10">Finial Solution</h4>
+                <h4 className="mt-25 mb-10">Deliver</h4>
                 <p>
-                  In a free hour, when our power of choice is untrammelled and
-                  when nothing prevents dolor sit amet, consectetur
+                  We implement, test, and hand over the working website or
+                  Android application.
                 </p>
               </div>
             </div>

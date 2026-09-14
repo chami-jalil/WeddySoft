@@ -6,9 +6,6 @@ import "swiper/swiper-bundle.css";
 import Shape from "@/public/images/shape/brand-shape.png";
 import One from "@/public/images/brand/website.png";
 import Two from "@/public/images/brand/android.png";
-import Three from "@/public/images/brand/ios1.png";
-import Four from "@/public/images/brand/watch.png";
-import Five from "@/public/images/brand/tv.png";
 
 const Brand = () => {
   return (
@@ -16,7 +13,7 @@ const Brand = () => {
       <div className="container">
         <div className="brand__wrp">
           <div className="brand__shape">
-            <Image src={Shape} alt="Image" priority />
+            <Image src={Shape} alt="" />
           </div>
           <div className="swiper brand__slider">
             <Swiper
@@ -33,13 +30,13 @@ const Brand = () => {
               }}
               breakpoints={{
                 1200: {
-                  slidesPerView: 5,
+                  slidesPerView: 2,
                 },
                 992: {
-                  slidesPerView: 4,
+                  slidesPerView: 2,
                 },
                 576: {
-                  slidesPerView: 3,
+                  slidesPerView: 2,
                 },
               }}
               className="swiper-wrapper"
@@ -47,70 +44,28 @@ const Brand = () => {
               <SwiperSlide>
                 <div>
                   <div className="brand__image image">
-                    <Image src={One} alt="Image" priority />
+                    <Image src={One} alt="Website" />
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div>
                   <div className="brand__image image">
-                    <Image src={Two} alt="Image" priority />
+                    <Image src={Two} alt="Android" />
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div>
                   <div className="brand__image image">
-                    <Image src={Three} alt="Image" priority />
+                    <Image src={One} alt="Website" />
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div>
                   <div className="brand__image image">
-                    <Image src={Four} alt="Image" priority />
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div>
-                  <div className="brand__image image">
-                    <Image src={Five} alt="Image" priority />
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div>
-                  <div className="brand__image image">
-                    <Image src={One} alt="Image" priority />
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div>
-                  <div className="brand__image image">
-                    <Image src={Two} alt="Image" priority />
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div>
-                  <div className="brand__image image">
-                    <Image src={Three} alt="Image" priority />
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div>
-                  <div className="brand__image image">
-                    <Image src={Four} alt="Image" priority />
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div>
-                  <div className="brand__image image">
-                    <Image src={Five} alt="Image" priority />
+                    <Image src={Two} alt="Android" />
                   </div>
                 </div>
               </SwiperSlide>

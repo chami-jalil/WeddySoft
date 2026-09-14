@@ -3,8 +3,8 @@ import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import ModalVideo from "react-modal-video";
-import One from "@/public/images/service/service-single-image1.jpg";
-import Two from "@/public/images/service/service-single-image2.jpg";
+import One from "@/public/images/service/service-single-1.webp";
+import Two from "@/public/images/service/service-single-2.webp";
 
 const ServiceSingle = () => {
   const [imgTab, setImgTab] = useState(0);
@@ -17,7 +17,7 @@ const ServiceSingle = () => {
             <div className="col-lg-8 order-2 order-lg-1">
               <div className="service-single__left-item">
                 <div className="image mb-50">
-                  <Image src={One} alt="Image" priority />
+                  <Image src={One} alt="IT Management service" />
                   <div className="service-single__video-btn">
                     <div
                       className="video-btn video-pulse "
@@ -65,7 +65,7 @@ const ServiceSingle = () => {
                   </div>
                   <div className="col-lg-7">
                     <div className="image">
-                      <Image src={Two} alt="Image" priority />
+                      <Image src={Two} alt="Technology services" />
                     </div>
                   </div>
                 </div>

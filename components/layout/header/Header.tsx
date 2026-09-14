@@ -3,10 +3,6 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import logo from "@/public/images/logo/logo.png";
-import one from "@/public/images/menu/home1-image.jpg";
-import two from "@/public/images/menu/home2-image.jpg";
-import three from "@/public/images/menu/home3-image.jpg";
-import four from "@/public/images/menu/home4-image.jpg";
 import OffCanvasMenu from "./OffCanvasMenu";
 
 const Header = () => {
@@ -76,130 +72,31 @@ const Header = () => {
             <div className="main-menu d-none d-lg-block">
               <nav>
                 <ul>
-                  <li className="has-megamenu">
+                  <li>
                     <Link href="/">Home</Link>
-                    <ul className="sub-menu mega-menu menu-image">
-                      <li>
-                        <div className="image text-center">
-                          <Image src={one} alt="Image" priority />
-                          <div className="btn__group">
-                            <Link href="/" className="btn-one">
-                              Multi Page
-                            </Link>
-                            <Link
-                              href="index-one-page"
-                              className="btn-one mt-2"
-                            >
-                              One Page
-                            </Link>
-                          </div>
-                          <h6 className="text-white">Home Page 01</h6>
-                        </div>
-                        <div className="image text-center">
-                          <Image src={two} alt="Image" priority />
-                          <div className="btn__group">
-                            <Link href="index-2" className="btn-one">
-                              Multi Page
-                            </Link>
-                            <Link
-                              href="index-2-one-page"
-                              className="btn-one mt-2"
-                            >
-                              One Page
-                            </Link>
-                          </div>
-                          <h6 className="text-white">Home Page 02</h6>
-                        </div>
-                        <div className="image text-center">
-                          <Image src={three} alt="Image" priority />
-                          <div className="btn__group">
-                            <Link href="index-3" className="btn-one">
-                              Multi Page
-                            </Link>
-                            <Link
-                              href="index-3-one-page"
-                              className="btn-one mt-2"
-                            >
-                              One Page
-                            </Link>
-                          </div>
-                          <h6 className="text-white">Home Page 03</h6>
-                        </div>
-                        <div className="image text-center">
-                          <Image src={four} alt="Image" priority />
-                          <div className="btn__group">
-                            <Link href="index-dark" className="btn-one">
-                              View Page
-                            </Link>
-                          </div>
-                          <h6 className="text-white">Home Dark</h6>
-                        </div>
-                      </li>
-                    </ul>
                   </li>
                   <li>
-                    <Link href="about">About</Link>
+                    <Link href="/about">About</Link>
                   </li>
                   <li>
                     <Link href="/service">Services</Link>
                     <ul className="sub-menu">
                       <li>
-                        <Link href="service-solutions">IT Solutions</Link>
+                        <Link href="/service-solutions">IT Solutions</Link>
                       </li>
                       <li>
-                        <Link href="service">IT Services</Link>
-                      </li>
-                      <li>
-                        <Link href="service-details">Service Details</Link>
+                        <Link href="/service">IT Services</Link>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <Link href="faq">FAQs</Link>
-                  </li>               
-                    {/* <ul className="sub-menu"> */}
-                      {/* <li>
-                        <Link href="case">Case Study 01</Link>
-                      </li> */}
-                      {/* <li>
-                        <Link href="case-2">Case Study 02</Link>
-                      </li> */}
-                      {/* <li>
-                        <Link href="case-details">Case Study Details</Link>
-                      </li> */}
-                      {/* <li>
-                        <Link href="team">Our Team</Link>
-                      </li> */}
-                      {/* <li>
-                        <Link href="team-details">Team Details</Link>
-                      </li> */}
-                      {/* <li>
-                        <Link href="pricing">Pricing</Link>
-                      </li> */}
-                      {/* <li>
-                        <Link href="faq">FAQ&apos;s</Link>
-                      </li> */}
-                      {/* <li>
-                        <Link href="error">404 Error</Link>
-                      </li> */}
-                    {/* </ul> */}
-                  <li>
-                    {/* <Link href="/blog">Blog</Link> */}
-                    <Link href="blog-details">Blog</Link>
-                    {/* <ul className="sub-menu">
-                      <li>
-                        <Link href="blog">Blog Grid</Link>
-                      </li>
-                      <li>
-                        <Link href="blog-standard">Blog Standard</Link>
-                      </li>
-                      <li>
-                        <Link href="blog-details">Blog Details</Link>
-                      </li>
-                    </ul> */}
+                    <Link href="/case">Work</Link>
                   </li>
                   <li>
-                    <Link href="contact">Contact</Link>
+                    <Link href="/faq">FAQs</Link>
+                  </li>
+                  <li>
+                    <Link href="/contact">Contact</Link>
                   </li>
                   <li className="ml-20 d-none d-lg-block">
                     <a className="search-trigger" onClick={handleSearch}>

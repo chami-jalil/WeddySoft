@@ -1,64 +1,13 @@
 import Link from "next/link";
-import Image from "next/image";
-import One from "@/public/images/shape/about-two-shape.png";
-import Two from "@/public/images/shape/about-two-dot.png";
-import Three from "@/public/images/shape/about-circle-helper.png";
-import Four from "@/public/images/about/about-two-image1.jpg";
-import Five from "@/public/images/about/about-two-image2.png";
-import Six from "@/public/images/shape/about-two-circle.png";
-import Seven from "@/public/images/about/singature.png";
 
 const AboutTwo = () => {
   return (
     <section className="about-two-area pt-120" id="about-two">
-      <div className="about-two__shape">
-        <Image src={One} alt="shape" priority />
-      </div>
       <div className="container">
         <div className="row g-4">
-          <div
-            className="col-xl-6 "
-            data-aos="fade-right"
-            data-aos-delay="200"
-            data-aos-duration="1500"
-          >
-            <div className="about-two__left-item">
-              <div className="dots">
-                <Image
-                  className="sway_Y__animation"
-                  src={Two}
-                  alt="shape"
-                  priority
-                />
-              </div>
-              <div className="shape-halper">
-                <Image
-                  className="sway__animation"
-                  src={Three}
-                  alt="shape"
-                  priority
-                />
-              </div>
-              <div className="image big-image">
-                <Image src={Four} alt="Image" priority />
-              </div>
-              <div className="image sm-image">
-                <Image src={Five} alt="Image" priority />
-              </div>
-              <div className="circle-shape">
-                <Image
-                  className="animation__rotate"
-                  src={Six}
-                  alt="shape"
-                  priority
-                />
-              </div>
-            </div>
-          </div>
-          <div className="col-xl-6">
+          <div className="col-xl-10 col-xxl-8">
             <div className="section-header mb-40">
               <h5
-                className=""
                 data-aos="fade-up"
                 data-aos-delay="0"
                 data-aos-duration="1500"
@@ -92,7 +41,6 @@ const AboutTwo = () => {
                 WHO WE ARE
               </h5>
               <h2
-                className=""
                 data-aos="fade-up"
                 data-aos-delay="200"
                 data-aos-duration="1500"
@@ -100,12 +48,15 @@ const AboutTwo = () => {
                 Ensuring Your Success Through Reliable IT Solutions{" "}
               </h2>
               <p
-                className=""
                 data-aos="fade-up"
                 data-aos-delay="400"
                 data-aos-duration="1500"
               >
-                We are dedicated to helping your business succeed with reliable IT solutions. Our team combines expertise and innovation to deliver results that make a real difference. We focus on understanding your needs and providing services that help you achieve your goals.
+                We are dedicated to helping your business succeed with reliable
+                IT solutions. Our team combines expertise and innovation to
+                deliver results that make a real difference. We focus on
+                understanding your needs and providing services that help you
+                achieve your goals.
               </p>
             </div>
             <div
@@ -137,10 +88,9 @@ const AboutTwo = () => {
               data-aos-delay="400"
               data-aos-duration="1500"
             >
-              <Link href="about" className="btn-one">
+              <Link href="/about" className="btn-one">
                 About Us <i className="fa-regular fa-arrow-right-long"></i>
               </Link>
-              <Image src={Seven} alt="singature" priority />
             </div>
           </div>
         </div>
