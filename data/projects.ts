@@ -61,23 +61,35 @@ export const projects: Project[] = [
     summary:
       "Telugu Quran is an Android app for reading the Quran with Telugu translation, published on Google Play.",
     overview:
-      "Telugu Quran is listed on Google Play under the developer name WeddySoft Enterprises. The Play listing shows 10K+ downloads and a 4.7 star rating. The app provides Quran text with Telugu translation, verse search, and navigation to a selected ayah.",
+      "Telugu Quran is listed on Google Play under the developer name WeddySoft Enterprises. The Play listing shows 10K+ downloads and a 4.7 star rating. The updated app includes a Telugu home screen, chapter list with Arabic titles, verse reading with copy and bookmark actions, word search, an alphabetical index, and font size and theme settings.",
     cover: {
-      src: "/images/work/telugu-quran/play-01.webp",
-      alt: "Telugu Quran Android app reading screen from Google Play",
+      src: "/images/work/telugu-quran/home.webp",
+      alt: "Telugu Quran Android app home screen",
     },
     gallery: [
       {
-        src: "/images/work/telugu-quran/play-01.webp",
-        alt: "Telugu Quran Surah Al-Fatihah reading screen",
+        src: "/images/work/telugu-quran/home.webp",
+        alt: "Telugu Quran home screen with chapter, search, and index shortcuts",
       },
       {
-        src: "/images/work/telugu-quran/play-03.webp",
-        alt: "Telugu Quran verse navigation screen",
+        src: "/images/work/telugu-quran/chapters.webp",
+        alt: "Telugu Quran chapters list with Arabic and Telugu titles",
       },
       {
-        src: "/images/work/telugu-quran/play-06.webp",
-        alt: "Telugu Quran search results screen",
+        src: "/images/work/telugu-quran/reading.webp",
+        alt: "Telugu Quran verse reading screen for Surah Al-Fatiha",
+      },
+      {
+        src: "/images/work/telugu-quran/search.webp",
+        alt: "Telugu Quran search screen",
+      },
+      {
+        src: "/images/work/telugu-quran/index.webp",
+        alt: "Telugu Quran alphabetical word index",
+      },
+      {
+        src: "/images/work/telugu-quran/settings.webp",
+        alt: "Telugu Quran settings for font size and theme",
       },
     ],
     facts: [
