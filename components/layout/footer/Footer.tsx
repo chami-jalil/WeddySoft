@@ -5,7 +5,7 @@ import Two from "@/public/images/shape/footer-solid-left.png";
 import Three from "@/public/images/shape/footer-regular-right.png";
 import Four from "@/public/images/shape/footer-solid-right.png";
 import Five from "@/public/images/shape/footer-shadow-shape.png";
-import logo from "@/public/images/logo/logo.png";
+import logo from "@/public/images/logo/logo-dark.svg";
 
 const Footer = () => {
   return (
@@ -54,7 +54,7 @@ const Footer = () => {
             data-aos-duration="1500"
           >
             <Link href="/" className="logo mb-30">
-              <Image src={logo} alt="Image" priority />
+              <Image src={logo} alt="WeddySoft" priority />
             </Link>
             {/* <p>
               Phasellus ultricies aliquam volutpat ullamcorper laoreet neque, a

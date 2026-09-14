@@ -16,10 +16,17 @@ export const metadata: Metadata = {
   ],
   authors: [
     {
-      name: "Gramentheme",
-      url: "https://themeforest.net/user/gramentheme",
+      name: "WeddySoft",
+      url: "https://www.weddysoft.com",
     },
   ],
+  icons: {
+    icon: [
+      { url: "/favicon.png", type: "image/png" },
+      { url: "/images/logo/app-icon.png", type: "image/png" },
+    ],
+    apple: [{ url: "/apple-touch-icon.png" }],
+  },
 };
 
 export default function RootLayout({

@@ -5,7 +5,7 @@ import Two from "@/public/images/shape/footer-solid-left.png";
 import Three from "@/public/images/shape/footer-regular-right.png";
 import Four from "@/public/images/shape/footer-solid-right.png";
 import Five from "@/public/images/shape/footer-shadow-shape.png";
-import Logo from "@/public/images/logo/logo.png";
+import Logo from "@/public/images/logo/logo-dark.svg";
 
 const FooterTwo = () => {
   return (
@@ -54,7 +54,7 @@ const FooterTwo = () => {
             data-aos-duration="1500"
           >
             <Link href="/" className="logo mb-30">
-              <Image src={Logo} alt="Image" priority />
+              <Image src={Logo} alt="WeddySoft" priority />
             </Link>
             <p>
               We provide reliable IT solutions and support to help your business grow. Our team is dedicated to delivering quality service and innovative technology for all your needs.

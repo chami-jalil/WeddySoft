@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none" role="img" aria-label="WeddySoft">
+  <g clip-path="url(#ws-sym-clip)">
+    <rect x="8" y="10" width="12" height="36" rx="4" transform="rotate(18 8 10)" fill="#176BFF"/>
+    <rect x="36" y="10" width="12" height="36" rx="4" transform="rotate(18 36 10)" fill="#176BFF"/>
+    <rect x="20" y="20" width="16" height="26" rx="4" transform="rotate(-18 20 20)" fill="#38D67A"/>
+  </g>
+  <defs>
+    <clipPath id="ws-sym-clip"><rect width="40" height="40" fill="white"/></clipPath>
+  </defs>
+</svg>

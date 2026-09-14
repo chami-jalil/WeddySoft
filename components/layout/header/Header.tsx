@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import logo from "@/public/images/logo/logo.png";
+import logo from "@/public/images/logo/logo-primary.svg";
 import OffCanvasMenu from "./OffCanvasMenu";
 
 const Header = () => {
@@ -67,7 +67,7 @@ const Header = () => {
         <div className="container header__container">
           <div className="header__main">
             <Link href="/" className="logo">
-              <Image src={logo} alt="logo" />
+              <Image src={logo} alt="WeddySoft" />
             </Link>
             <div className="main-menu d-none d-lg-block">
               <nav>
